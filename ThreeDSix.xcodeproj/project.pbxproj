@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E87A82B1561AFF300F68D43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A82A1561AFF300F68D43 /* UIKit.framework */; };
+		4E87A82D1561AFF300F68D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A82C1561AFF300F68D43 /* Foundation.framework */; };
+		4E87A82F1561AFF300F68D43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A82E1561AFF300F68D43 /* CoreGraphics.framework */; };
+		4E87A8351561AFF300F68D43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E87A8331561AFF300F68D43 /* InfoPlist.strings */; };
+		4E87A8371561AFF300F68D43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87A8361561AFF300F68D43 /* main.m */; };
+		4E87A83B1561AFF300F68D43 /* TDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87A83A1561AFF300F68D43 /* TDSAppDelegate.m */; };
+		4E87A83E1561AFF300F68D43 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E87A83C1561AFF300F68D43 /* MainStoryboard.storyboard */; };
+		4E87A8411561AFF300F68D43 /* TDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87A8401561AFF300F68D43 /* TDSViewController.m */; };
+		4E87A8491561AFF300F68D43 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A8481561AFF300F68D43 /* SenTestingKit.framework */; };
+		4E87A84A1561AFF300F68D43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A82A1561AFF300F68D43 /* UIKit.framework */; };
+		4E87A84B1561AFF300F68D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E87A82C1561AFF300F68D43 /* Foundation.framework */; };
+		4E87A8531561AFF300F68D43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E87A8511561AFF300F68D43 /* InfoPlist.strings */; };
+		4E87A8561561AFF300F68D43 /* ThreeDSixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87A8551561AFF300F68D43 /* ThreeDSixTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E87A84C1561AFF300F68D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E87A81D1561AFF300F68D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E87A8251561AFF300F68D43;
+			remoteInfo = ThreeDSix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E87A8261561AFF300F68D43 /* ThreeDSix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeDSix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E87A82A1561AFF300F68D43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E87A82C1561AFF300F68D43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E87A82E1561AFF300F68D43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E87A8321561AFF300F68D43 /* ThreeDSix-Info.plist */ = {isa = PBXFileReference; path = "ThreeDSix-Info.plist"; sourceTree = "<group>"; };
+		4E87A8341561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E87A8361561AFF300F68D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E87A8381561AFF300F68D43 /* ThreeDSix-Prefix.pch */ = {isa = PBXFileReference; path = "ThreeDSix-Prefix.pch"; sourceTree = "<group>"; };
+		4E87A8391561AFF300F68D43 /* TDSAppDelegate.h */ = {isa = PBXFileReference; path = TDSAppDelegate.h; sourceTree = "<group>"; };
+		4E87A83A1561AFF300F68D43 /* TDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSAppDelegate.m; sourceTree = "<group>"; };
+		4E87A83D1561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4E87A83F1561AFF300F68D43 /* TDSViewController.h */ = {isa = PBXFileReference; path = TDSViewController.h; sourceTree = "<group>"; };
+		4E87A8401561AFF300F68D43 /* TDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSViewController.m; sourceTree = "<group>"; };
+		4E87A8471561AFF300F68D43 /* ThreeDSixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDSixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E87A8481561AFF300F68D43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E87A8501561AFF300F68D43 /* ThreeDSixTests-Info.plist */ = {isa = PBXFileReference; path = "ThreeDSixTests-Info.plist"; sourceTree = "<group>"; };
+		4E87A8521561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E87A8541561AFF300F68D43 /* ThreeDSixTests.h */ = {isa = PBXFileReference; path = ThreeDSixTests.h; sourceTree = "<group>"; };
+		4E87A8551561AFF300F68D43 /* ThreeDSixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeDSixTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E87A8231561AFF300F68D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A82B1561AFF300F68D43 /* UIKit.framework in Frameworks */,
+				4E87A82D1561AFF300F68D43 /* Foundation.framework in Frameworks */,
+				4E87A82F1561AFF300F68D43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E87A8431561AFF300F68D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A8491561AFF300F68D43 /* SenTestingKit.framework in Frameworks */,
+				4E87A84A1561AFF300F68D43 /* UIKit.framework in Frameworks */,
+				4E87A84B1561AFF300F68D43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E87A81B1561AFF300F68D43 = {
+			isa = PBXGroup;
+			children = (
+				4E87A8301561AFF300F68D43 /* ThreeDSix */,
+				4E87A84E1561AFF300F68D43 /* ThreeDSixTests */,
+				4E87A8291561AFF300F68D43 /* Frameworks */,
+				4E87A8271561AFF300F68D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E87A8271561AFF300F68D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A8261561AFF300F68D43 /* ThreeDSix.app */,
+				4E87A8471561AFF300F68D43 /* ThreeDSixTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E87A8291561AFF300F68D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A82A1561AFF300F68D43 /* UIKit.framework */,
+				4E87A82C1561AFF300F68D43 /* Foundation.framework */,
+				4E87A82E1561AFF300F68D43 /* CoreGraphics.framework */,
+				4E87A8481561AFF300F68D43 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E87A8301561AFF300F68D43 /* ThreeDSix */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A8391561AFF300F68D43 /* TDSAppDelegate.h */,
+				4E87A83A1561AFF300F68D43 /* TDSAppDelegate.m */,
+				4E87A83C1561AFF300F68D43 /* MainStoryboard.storyboard */,
+				4E87A83F1561AFF300F68D43 /* TDSViewController.h */,
+				4E87A8401561AFF300F68D43 /* TDSViewController.m */,
+				4E87A8311561AFF300F68D43 /* Supporting Files */,
+			);
+			path = ThreeDSix;
+			sourceTree = "<group>";
+		};
+		4E87A8311561AFF300F68D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A8321561AFF300F68D43 /* ThreeDSix-Info.plist */,
+				4E87A8331561AFF300F68D43 /* InfoPlist.strings */,
+				4E87A8361561AFF300F68D43 /* main.m */,
+				4E87A8381561AFF300F68D43 /* ThreeDSix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E87A84E1561AFF300F68D43 /* ThreeDSixTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A8541561AFF300F68D43 /* ThreeDSixTests.h */,
+				4E87A8551561AFF300F68D43 /* ThreeDSixTests.m */,
+				4E87A84F1561AFF300F68D43 /* Supporting Files */,
+			);
+			path = ThreeDSixTests;
+			sourceTree = "<group>";
+		};
+		4E87A84F1561AFF300F68D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E87A8501561AFF300F68D43 /* ThreeDSixTests-Info.plist */,
+				4E87A8511561AFF300F68D43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E87A8251561AFF300F68D43 /* ThreeDSix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E87A8591561AFF300F68D43 /* Build configuration list for PBXNativeTarget "ThreeDSix" */;
+			buildPhases = (
+				4E87A8221561AFF300F68D43 /* Sources */,
+				4E87A8231561AFF300F68D43 /* Frameworks */,
+				4E87A8241561AFF300F68D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDSix;
+			productName = ThreeDSix;
+			productReference = 4E87A8261561AFF300F68D43 /* ThreeDSix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E87A8461561AFF300F68D43 /* ThreeDSixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E87A85C1561AFF300F68D43 /* Build configuration list for PBXNativeTarget "ThreeDSixTests" */;
+			buildPhases = (
+				4E87A8421561AFF300F68D43 /* Sources */,
+				4E87A8431561AFF300F68D43 /* Frameworks */,
+				4E87A8441561AFF300F68D43 /* Resources */,
+				4E87A8451561AFF300F68D43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E87A84D1561AFF300F68D43 /* PBXTargetDependency */,
+			);
+			name = ThreeDSixTests;
+			productName = ThreeDSixTests;
+			productReference = 4E87A8471561AFF300F68D43 /* ThreeDSixTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E87A81D1561AFF300F68D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4E87A8201561AFF300F68D43 /* Build configuration list for PBXProject "ThreeDSix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E87A81B1561AFF300F68D43;
+			productRefGroup = 4E87A8271561AFF300F68D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E87A8251561AFF300F68D43 /* ThreeDSix */,
+				4E87A8461561AFF300F68D43 /* ThreeDSixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E87A8241561AFF300F68D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A8351561AFF300F68D43 /* InfoPlist.strings in Resources */,
+				4E87A83E1561AFF300F68D43 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E87A8441561AFF300F68D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A8531561AFF300F68D43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E87A8451561AFF300F68D43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E87A8221561AFF300F68D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A8371561AFF300F68D43 /* main.m in Sources */,
+				4E87A83B1561AFF300F68D43 /* TDSAppDelegate.m in Sources */,
+				4E87A8411561AFF300F68D43 /* TDSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E87A8421561AFF300F68D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87A8561561AFF300F68D43 /* ThreeDSixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E87A84D1561AFF300F68D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E87A8251561AFF300F68D43 /* ThreeDSix */;
+			targetProxy = 4E87A84C1561AFF300F68D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E87A8331561AFF300F68D43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E87A8341561AFF300F68D43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E87A83C1561AFF300F68D43 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E87A83D1561AFF300F68D43 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4E87A8511561AFF300F68D43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E87A8521561AFF300F68D43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E87A8571561AFF300F68D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E87A8581561AFF300F68D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E87A85A1561AFF300F68D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDSix/ThreeDSix-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDSix/ThreeDSix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E87A85B1561AFF300F68D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDSix/ThreeDSix-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDSix/ThreeDSix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E87A85D1561AFF300F68D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeDSix.app/ThreeDSix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDSix/ThreeDSix-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDSixTests/ThreeDSixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E87A85E1561AFF300F68D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeDSix.app/ThreeDSix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDSix/ThreeDSix-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDSixTests/ThreeDSixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E87A8201561AFF300F68D43 /* Build configuration list for PBXProject "ThreeDSix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E87A8571561AFF300F68D43 /* Debug */,
+				4E87A8581561AFF300F68D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E87A8591561AFF300F68D43 /* Build configuration list for PBXNativeTarget "ThreeDSix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E87A85A1561AFF300F68D43 /* Debug */,
+				4E87A85B1561AFF300F68D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E87A85C1561AFF300F68D43 /* Build configuration list for PBXNativeTarget "ThreeDSixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E87A85D1561AFF300F68D43 /* Debug */,
+				4E87A85E1561AFF300F68D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E87A81D1561AFF300F68D43 /* Project object */;
+}
