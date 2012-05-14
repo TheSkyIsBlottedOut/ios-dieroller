@@ -37,20 +37,20 @@
 		4E87A82A1561AFF300F68D43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E87A82C1561AFF300F68D43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E87A82E1561AFF300F68D43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E87A8321561AFF300F68D43 /* ThreeDSix-Info.plist */ = {isa = PBXFileReference; path = "ThreeDSix-Info.plist"; sourceTree = "<group>"; };
+		4E87A8321561AFF300F68D43 /* ThreeDSix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeDSix-Info.plist"; sourceTree = "<group>"; };
 		4E87A8341561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E87A8361561AFF300F68D43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E87A8381561AFF300F68D43 /* ThreeDSix-Prefix.pch */ = {isa = PBXFileReference; path = "ThreeDSix-Prefix.pch"; sourceTree = "<group>"; };
-		4E87A8391561AFF300F68D43 /* TDSAppDelegate.h */ = {isa = PBXFileReference; path = TDSAppDelegate.h; sourceTree = "<group>"; };
+		4E87A8381561AFF300F68D43 /* ThreeDSix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeDSix-Prefix.pch"; sourceTree = "<group>"; };
+		4E87A8391561AFF300F68D43 /* TDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSAppDelegate.h; sourceTree = "<group>"; };
 		4E87A83A1561AFF300F68D43 /* TDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSAppDelegate.m; sourceTree = "<group>"; };
 		4E87A83D1561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4E87A83F1561AFF300F68D43 /* TDSViewController.h */ = {isa = PBXFileReference; path = TDSViewController.h; sourceTree = "<group>"; };
+		4E87A83F1561AFF300F68D43 /* TDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDSViewController.h; sourceTree = "<group>"; };
 		4E87A8401561AFF300F68D43 /* TDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDSViewController.m; sourceTree = "<group>"; };
 		4E87A8471561AFF300F68D43 /* ThreeDSixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDSixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E87A8481561AFF300F68D43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E87A8501561AFF300F68D43 /* ThreeDSixTests-Info.plist */ = {isa = PBXFileReference; path = "ThreeDSixTests-Info.plist"; sourceTree = "<group>"; };
+		4E87A8501561AFF300F68D43 /* ThreeDSixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeDSixTests-Info.plist"; sourceTree = "<group>"; };
 		4E87A8521561AFF300F68D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E87A8541561AFF300F68D43 /* ThreeDSixTests.h */ = {isa = PBXFileReference; path = ThreeDSixTests.h; sourceTree = "<group>"; };
+		4E87A8541561AFF300F68D43 /* ThreeDSixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeDSixTests.h; sourceTree = "<group>"; };
 		4E87A8551561AFF300F68D43 /* ThreeDSixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeDSixTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

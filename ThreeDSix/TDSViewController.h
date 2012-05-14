@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface TDSViewController : UIViewController
-
+- (IBAction)rollDSix:(id)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *sideSelect;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @end
